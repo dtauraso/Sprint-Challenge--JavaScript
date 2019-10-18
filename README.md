@@ -29,14 +29,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-    .map requires an input array and an output array to put results into
-    .forEach doesn't use an output array, it just runs the fuction passed to it.
+
+    The .map function requires an input array and an output array to put results of the function passed to it into,
+    The .forEach function doesn't use an output array, it just runs the fuction passed to it.
+
 2. What is the difference between a function and a method?
+
     A method is a funciton inside a class.  It's added to a class via .prototype
+
 3. What is closure?
+
     A closure is a nested function that can access the variables of the parent function.  It has access to the environment surrounding it(the outer function).  You can run the function, store the nested function and use it as a number generator(start at count = 0. first call of closure, count = 1, second time, count = 3.  This assumes the formula in the closure is count += 1)
     
 4. Describe the four rules of the 'this' keyword.
+
     Window binding
     The "this" keyword by default binds to the window, unless we are in strict mode.  In that cause "this" is undefined.
     
